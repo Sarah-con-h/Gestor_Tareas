@@ -1,0 +1,160 @@
+/* Fondo general */
+body {
+    background-color: #f5efe6;
+    font-family: Arial, sans-serif;
+}
+
+/* Título principal */
+h1 {
+    color: #6d071a;
+    font-weight: bold;
+}
+
+/* Tarjetas */
+.card {
+    background-color: #fffaf5;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+/* Inputs y selects */
+.form-control {
+    border: 1px solid #c8b6a6;
+}
+
+.form-control:focus {
+    border-color: #6d071a;
+    box-shadow: 0 0 5px rgba(109, 7, 26, 0.3);
+}
+
+/* Botón principal */
+.btn-primary {
+    background-color: #6d071a;
+    border-color: #6d071a;
+}
+
+.btn-primary:hover {
+    background-color: #540514;
+    border-color: #540514;
+}
+
+/* Botón tareas */
+.btn-success {
+    background-color: #8b5e3c;
+    border-color: #8b5e3c;
+}
+
+.btn-success:hover {
+    background-color: #71492d;
+    border-color: #71492d;
+}
+
+/* Botón editar */
+.btn-warning {
+    background-color: #c58b48;
+    border-color: #c58b48;
+    color: white;
+}
+
+.btn-warning:hover {
+    background-color: #aa7335;
+    color: white;
+}
+
+/* Botón eliminar */
+.btn-danger {
+    background-color: #8c1c32;
+    border-color: #8c1c32;
+}
+
+.btn-danger:hover {
+    background-color: #6d071a;
+    border-color: #6d071a;
+}
+
+/* Tabla */
+.table {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.table thead {
+    background-color: #6d071a;
+    color: white;
+}
+
+.table tbody tr:hover {
+    background-color: #f0e2d4;
+}
+
+/* Navegación */
+a.btn {
+    margin-right: 10px;
+}
+
+/* Separador */
+hr {
+    border: 1px solid #c8b6a6;
+}
+/* Tabla moderna */
+
+.table {
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,.08);
+}
+
+.table th {
+    background-color: #6d071a;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    padding: 15px;
+}
+
+.table td {
+    vertical-align: middle;
+    padding: 12px;
+}
+
+.table tbody tr:hover {
+    background-color: #f6ede5;
+}
+
+/* Botones */
+
+.acciones {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+}
+
+.btn {
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+/* Tarjetas */
+
+.card {
+    border-radius: 20px;
+    padding: 25px;
+}
+
+/* Inputs */
+
+.form-control,
+.form-select {
+    border-radius: 10px;
+}
+
+/* Títulos */
+
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
